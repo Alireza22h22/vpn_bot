@@ -7,8 +7,7 @@ from telegram.ext import (
 )
 
 # بارگذاری توکن از فایل محیطی
-load_dotenv()
-TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN=123456789:ABCdefGhIjklMnopQRStuvWxyZ
 print("توکن ربات:", TOKEN)
 if not TOKEN:
     print("توکن ربات پیدا نشد! لطفاً فایل .env رو چک کن.")
