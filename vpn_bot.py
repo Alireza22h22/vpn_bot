@@ -9,6 +9,9 @@ from telegram.ext import (
 # بارگذاری توکن از فایل محیطی
 load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
+print("توکن ربات:", TOKEN)
+if not TOKEN:
+    print("توکن ربات پیدا نشد! لطفاً فایل .env رو چک کن.")
 
 # دکمه‌ها
 main_keyboard = [
